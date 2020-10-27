@@ -11,6 +11,13 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+@media screen and (max-width: 768px) {
+  .NietAf {
+    position: relative;
+    width: 100%
+  }
+}
+
 .afbeeldingen{
   width: 450px;
 }
@@ -25,7 +32,11 @@ body {
   padding-right: 15%;
 }
 
-.Title, .Slot, .Call-to-action {
+.Title{
+  background-image: radial-gradient(circle, #916dd5 0%, #f0e3ff 100%);
+  color:#fff;;
+}
+.Slot, .Call-to-action {
   background-color: #916dd5;
   color:#fff;
 }
@@ -43,6 +54,13 @@ body {
   position: absolute;
 }
 
+@media screen and (max-width: 768px) {
+  .NietAf {
+    position: relative;
+    width: 100%
+  }
+}
+
 .Intro, .Verdieping, .Vragenlijst, .Spel{
   background-color: #fff;
   padding-top: 5%;
@@ -58,7 +76,7 @@ body {
 /* Title stuk */
 .Title{
   padding-top: 3%;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
   text-align: center;
 }
 
@@ -67,7 +85,8 @@ body {
   color: #fff;
   padding-top: 40px;
   transform: rotate(-11deg);
-  display: inline-block ;
+  display: inline-block;
+  white-space: pre;
 }
 
 .constructie{
@@ -78,6 +97,23 @@ body {
   font-size: 5rem;
   font-weight: bold;
 }
+
+.verborgen{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .verborgen{
+    display: inline-block;
+    z-index: 1;
+  }
+}
+@media screen and (max-width: 768px) {
+  .actief{
+    display: none;
+  }
+}
+
 /* Intro stuk */
 
 /* Voorstel stuk */
