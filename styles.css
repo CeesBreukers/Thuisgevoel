@@ -4,7 +4,8 @@ h1, h2, h3, h4, h5, h6{
   font-family: 'Montserrat-Black', sans-serif;
   color: #3e206d;
   font-weight: bold;
-  padding: 8px;
+  padding: 8px 0;
+
 }
 
 body {
@@ -68,7 +69,7 @@ body {
 }
 
 .Voorstel, .Fotovergelijker{
-  background-color: #d89cf6;
+  background-color: #DEC3E8;
   padding-top: 5%;
   padding-bottom: 5%;
 }
@@ -119,6 +120,11 @@ body {
 /* Voorstel stuk */
 .Voorstellen{
   text-align: center;
+}
+
+.profielfoto{
+  width: 100%;
+  max-width: 200px;
 }
 
 /* Verdieping stuk */
